@@ -1,0 +1,9 @@
+##
+
+This is really first effort to make 
+R Mongo drivers using C++ library
+
+There is great existing effort already, 
+but it uses Scala and demands Java installation
+
+##

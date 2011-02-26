@@ -1,0 +1,146 @@
+file /Users/tommi/PycharmProjects/msmicrokernel/utils/rmongo/src/mongo-cxx-driver/SConstruct,line 54:
+	Configure(confdir = .sconf_temp)
+scons: Configure: Checking for C library boost_thread... 
+scons: Configure: ".sconf_temp/conftest_0.c" is up to date.
+scons: Configure: The original builder output was:
+  |.sconf_temp/conftest_0.c <-
+  |  |
+  |  |
+  |  |
+  |  |int
+  |  |main() {
+  |  |  
+  |  |return 0;
+  |  |}
+  |  |
+  |
+scons: Configure: ".sconf_temp/conftest_0.o" is up to date.
+scons: Configure: The original builder output was:
+  |gcc -o .sconf_temp/conftest_0.o -c -O3 -D_SCONS -DMONGO_EXPOSE_MACROS -I/opt/extra/include -Imongo .sconf_temp/conftest_0.c
+  |
+scons: Configure: Building ".sconf_temp/conftest_0" failed in a previous run and all its sources are up to date.
+scons: Configure: The original builder output was:
+  |gcc -o .sconf_temp/conftest_0 .sconf_temp/conftest_0.o -Lboost/stage/lib -lpthread -lboost_thread -lboost_filesystem -lboost_system -lboost_thread
+  |
+scons: Configure: (cached) no
+
+scons: Configure: Checking for C library libboost_thread... 
+scons: Configure: ".sconf_temp/conftest_1.c" is up to date.
+scons: Configure: The original builder output was:
+  |.sconf_temp/conftest_1.c <-
+  |  |
+  |  |
+  |  |
+  |  |int
+  |  |main() {
+  |  |  
+  |  |return 0;
+  |  |}
+  |  |
+  |
+scons: Configure: ".sconf_temp/conftest_1.o" is up to date.
+scons: Configure: The original builder output was:
+  |gcc -o .sconf_temp/conftest_1.o -c -O3 -D_SCONS -DMONGO_EXPOSE_MACROS -I/opt/extra/include -Imongo .sconf_temp/conftest_1.c
+  |
+scons: Configure: Building ".sconf_temp/conftest_1" failed in a previous run and all its sources are up to date.
+scons: Configure: The original builder output was:
+  |gcc -o .sconf_temp/conftest_1 .sconf_temp/conftest_1.o -Lboost/stage/lib -lpthread -lboost_thread -lboost_filesystem -lboost_system -lboost_thread
+  |
+scons: Configure: (cached) no
+
+scons: Configure: Checking for C library boost_filesystem... 
+scons: Configure: ".sconf_temp/conftest_2.c" is up to date.
+scons: Configure: The original builder output was:
+  |.sconf_temp/conftest_2.c <-
+  |  |
+  |  |
+  |  |
+  |  |int
+  |  |main() {
+  |  |  
+  |  |return 0;
+  |  |}
+  |  |
+  |
+scons: Configure: ".sconf_temp/conftest_2.o" is up to date.
+scons: Configure: The original builder output was:
+  |gcc -o .sconf_temp/conftest_2.o -c -O3 -D_SCONS -DMONGO_EXPOSE_MACROS -I/opt/extra/include -Imongo .sconf_temp/conftest_2.c
+  |
+scons: Configure: Building ".sconf_temp/conftest_2" failed in a previous run and all its sources are up to date.
+scons: Configure: The original builder output was:
+  |gcc -o .sconf_temp/conftest_2 .sconf_temp/conftest_2.o -Lboost/stage/lib -lpthread -lboost_thread -lboost_filesystem -lboost_system -lboost_filesystem
+  |
+scons: Configure: (cached) no
+
+scons: Configure: Checking for C library libboost_filesystem... 
+scons: Configure: ".sconf_temp/conftest_3.c" is up to date.
+scons: Configure: The original builder output was:
+  |.sconf_temp/conftest_3.c <-
+  |  |
+  |  |
+  |  |
+  |  |int
+  |  |main() {
+  |  |  
+  |  |return 0;
+  |  |}
+  |  |
+  |
+scons: Configure: ".sconf_temp/conftest_3.o" is up to date.
+scons: Configure: The original builder output was:
+  |gcc -o .sconf_temp/conftest_3.o -c -O3 -D_SCONS -DMONGO_EXPOSE_MACROS -I/opt/extra/include -Imongo .sconf_temp/conftest_3.c
+  |
+scons: Configure: Building ".sconf_temp/conftest_3" failed in a previous run and all its sources are up to date.
+scons: Configure: The original builder output was:
+  |gcc -o .sconf_temp/conftest_3 .sconf_temp/conftest_3.o -Lboost/stage/lib -lpthread -lboost_thread -lboost_filesystem -lboost_system -lboost_filesystem
+  |
+scons: Configure: (cached) no
+
+scons: Configure: Checking for C library boost_system... 
+scons: Configure: ".sconf_temp/conftest_4.c" is up to date.
+scons: Configure: The original builder output was:
+  |.sconf_temp/conftest_4.c <-
+  |  |
+  |  |
+  |  |
+  |  |int
+  |  |main() {
+  |  |  
+  |  |return 0;
+  |  |}
+  |  |
+  |
+scons: Configure: ".sconf_temp/conftest_4.o" is up to date.
+scons: Configure: The original builder output was:
+  |gcc -o .sconf_temp/conftest_4.o -c -O3 -D_SCONS -DMONGO_EXPOSE_MACROS -I/opt/extra/include -Imongo .sconf_temp/conftest_4.c
+  |
+scons: Configure: Building ".sconf_temp/conftest_4" failed in a previous run and all its sources are up to date.
+scons: Configure: The original builder output was:
+  |gcc -o .sconf_temp/conftest_4 .sconf_temp/conftest_4.o -Lboost/stage/lib -lpthread -lboost_thread -lboost_filesystem -lboost_system -lboost_system
+  |
+scons: Configure: (cached) no
+
+scons: Configure: Checking for C library libboost_system... 
+scons: Configure: ".sconf_temp/conftest_5.c" is up to date.
+scons: Configure: The original builder output was:
+  |.sconf_temp/conftest_5.c <-
+  |  |
+  |  |
+  |  |
+  |  |int
+  |  |main() {
+  |  |  
+  |  |return 0;
+  |  |}
+  |  |
+  |
+scons: Configure: ".sconf_temp/conftest_5.o" is up to date.
+scons: Configure: The original builder output was:
+  |gcc -o .sconf_temp/conftest_5.o -c -O3 -D_SCONS -DMONGO_EXPOSE_MACROS -I/opt/extra/include -Imongo .sconf_temp/conftest_5.c
+  |
+scons: Configure: Building ".sconf_temp/conftest_5" failed in a previous run and all its sources are up to date.
+scons: Configure: The original builder output was:
+  |gcc -o .sconf_temp/conftest_5 .sconf_temp/conftest_5.o -Lboost/stage/lib -lpthread -lboost_thread -lboost_filesystem -lboost_system -lboost_system
+  |
+scons: Configure: (cached) no
+
