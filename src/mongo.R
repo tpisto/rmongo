@@ -2,7 +2,7 @@ dyn.load(paste("librmongo", .Platform$dynlib.ext, sep=""))
 
 mongo.open <- function(host="127.0.0.1", port=27017)
 {
-.Call("mongoRconnect", as.character(host), as.integer(port))
+.Call("mongoRconnect", as.character(host), as.character(port))
 }
 
 mongo.close <- function(handler)
