@@ -1,9 +1,14 @@
 ##
 
-This is really first effort to make 
-R Mongo drivers using C++ library
+R# MongoDB driver using the Mongo C++ client library.
+Library is really in its gamma 0.001 stage, but it will
+mature over time. 
 
-There is great existing effort already, 
-but it uses Scala and demands Java installation
+There is already effort to build R driver for MongoDB, but
+it uses Scala and have bindings to Java.
+
+ps. Why R#, not R. Right - in the search engine era
+the R is propably the worst name for programming language.
+So I am using R# for better searchability. 
 
 ##
