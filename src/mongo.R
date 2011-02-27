@@ -16,5 +16,5 @@ mongo.query <- function(handler, collection, query)
 }
 
 mongo <- mongo.open()
-mongo.query(mongo, "test.blog_post", "{}")
+mongo.query(mongo, "test.urlrouter_urlroute", '{}')
 mongo.close(mongo)
