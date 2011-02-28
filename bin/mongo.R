@@ -1,4 +1,4 @@
-dyn.load(paste("librmongo", .Platform$dynlib.ext, sep=""))
+dyn.load(paste("librmongo-darwin-64", .Platform$dynlib.ext, sep=""))
 
 mongo.open <- function(host="127.0.0.1", port=27017)
 {
@@ -15,6 +15,7 @@ mongo.query <- function(handler, collection, query)
 .Call("mongoRquery",handler, as.character(collection), as.character(query))
 }
 
-mongo <- mongo.open()
-mongo.query(mongo, "test.urlrouter_urlroute", '{}')
-mongo.close(mongo)
+mongo.insert <- function(handler, collection, query)
+{
+	.Call("mongoRinsert",handler, as.character(collection), as.character(query))
+}
